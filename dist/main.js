@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log(\"check\");\n\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("// inspiration from  https://www.fablekitchen.ca/#about\nconsole.log(\"test\")\nconst content = document.querySelector(\"#content\")\nconst banner = document.createElement(\"div\")\nconst main = document.createElement(\"div\")\ncontent.appendChild(main)\nmain.textContent = \"blah blah, blurb about the restaurant\"\n\n\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
 
 /***/ })
 
