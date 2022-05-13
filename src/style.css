@@ -66,7 +66,7 @@ background-position: center center;
 }
 .headerMenu {
 display: grid;
-grid-template-rows: 1fr 2fr ;
+grid-template-rows: 1fr 2fr;
 }
 .socialIcons {
 display: grid;

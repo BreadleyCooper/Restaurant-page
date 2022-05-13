@@ -1,5 +1,13 @@
 // https://www.fablekitchen.ca/#about
 import "./style.css"
+import renderMenu from "./menu";
+
+// function to call that clears the page ready to load in from other modules
+function clearDOM (){
+    while (main.firstChild){
+        main.removeChild(main.lastChild)
+    }
+}
 
 // main page elements
 const content = document.querySelector("#content");
@@ -55,6 +63,7 @@ menu.classList.toggle("menu")
 about.classList.toggle("about")
 contact.classList.toggle("menu")
 
+
 // main content - name of restaurant 
 
 const name = document.createElement("div");
@@ -87,3 +96,8 @@ for (let i = 0;i<7;i++){
     days.textContent = hoursContent[i]
 }
 
+// event listeners
+menu.addEventListener("click", () => {
+    clearDOM();
+    renderMenu();
+})
