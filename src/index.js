@@ -66,7 +66,7 @@ contact.classList.toggle("menu")
 
 
 // main content - name of restaurant 
-
+function renderAbout() {
 const name = document.createElement("div");
 main.appendChild(name);
 name.textContent = "Jamaican Grill House";
@@ -96,9 +96,14 @@ for (let i = 0;i<7;i++){
     days.classList.toggle("days")
     days.textContent = hoursContent[i]
 }
-
+}
+renderAbout();
 // event listeners
 menu.addEventListener("click", () => {
     clearDOM();
     renderMenu();
+})
+about.addEventListener("click", () =>{
+    clearDOM();
+    renderAbout();
 })

@@ -1,12 +1,9 @@
 .menuContainer {
     display:grid;
-    grid-template-rows: 1fr repeat(4, 5fr);
+    grid-template-rows: 1fr repeat(4, 4fr);
     grid-row: 1 / -1;
 }
-.startersContainer {
-    display: grid;
-    grid-area: 2 / 1 / 3 / -1;
-}
+
 .startersItemContainer, .sidesItemContainer, .mainsItemContainer, .drinksItemContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

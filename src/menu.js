@@ -17,10 +17,8 @@ function renderMenu(){
     startersTitle.classList.toggle("startersTitle")
     const startersItemContainer = document.createElement("div")
     startersItemContainer.classList.toggle("startersItemContainer")
-    const starters = document.createElement("div")
-    starters.classList.toggle("starters")
     menuContainer.appendChild(startersContainer)
-    startersContainer.append(startersTitle, startersItemContainer, starters)
+    startersContainer.append(startersTitle, startersItemContainer,)
     startersTitle.textContent = "Starters"
 
     // array of starters 
@@ -39,10 +37,8 @@ function renderMenu(){
     sidesTitle.textContent = "Sides";
     const sidesItemContainer = document.createElement("div")
     sidesItemContainer.classList.toggle("sidesItemContainer")
-    const sides = document.createElement("div")
-    sides.classList.toggle("sides")
     menuContainer.appendChild(sidesContainer)
-    sidesContainer.append(sidesTitle, sidesItemContainer, sides)
+    sidesContainer.append(sidesTitle, sidesItemContainer,)
     
     //array of sides
     let sidesArray = ["Placeholder","£5.00", "Placeholder", "£5.00","Placeholder", "£5.00","Placeholder","£5.00", "Placeholder","£5.00"] 
@@ -60,10 +56,8 @@ function renderMenu(){
     mainsTitle.textContent = "Mains"
     const mainsItemContainer = document.createElement("div")
     mainsItemContainer.classList.toggle("mainsItemContainer")
-    const mains = document.createElement("div")
-    mains.classList.toggle("mains")
     menuContainer.appendChild(mainsContainer)
-    mainsContainer.append(mainsTitle, mainsItemContainer, mains)
+    mainsContainer.append(mainsTitle, mainsItemContainer,)
 
     // array of mains
     let mainsArray = ["Placeholder","£5.00", "Placeholder", "£5.00","Placeholder", "£5.00","Placeholder","£5.00", "Placeholder","£5.00"]
@@ -82,10 +76,8 @@ function renderMenu(){
     drinksTitle.textContent = "Drinks"
     const drinksItemContainer = document.createElement("div")
     drinksItemContainer.classList.toggle("drinksItemContainer")
-    const drinks = document.createElement("div")
-    drinks.classList.toggle("drinks")
     menuContainer.appendChild(drinksContainer)
-    drinksContainer.append(drinksTitle, drinksItemContainer, drinks)
+    drinksContainer.append(drinksTitle, drinksItemContainer,)
     
     // array of drinks
     let drinksArray = ["Placeholder","£5.00", "Placeholder", "£5.00","Placeholder", "£5.00","Placeholder","£5.00", "Placeholder","£5.00"]
