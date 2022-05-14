@@ -1,5 +1,6 @@
 // https://www.fablekitchen.ca/#about
 import "./style.css"
+import "./menu.css"
 import renderMenu from "./menu";
 
 // function to call that clears the page ready to load in from other modules
