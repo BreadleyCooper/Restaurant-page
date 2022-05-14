@@ -59,7 +59,7 @@ background-position: center center;
 .headerAddress {
     display: grid;
     align-content: center;
-    white-space: pre-line;
+    white-space: pre-line;  /* This allows the carrige return to work \r\n */
     text-align: center;
     padding-top: 1em;
     font-size: 1.4rem;

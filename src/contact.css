@@ -1,8 +1,19 @@
 .contactContainer {
     display:grid;
     grid-row: 1 / -1;
+    grid-template-rows: repeat(2, 1fr) 2fr;
 }
 .contactHead {
     padding-top: 1.5em;
     font-size: 2em;
+    max-height: 2em;
+}
+.contactAddress {
+    white-space: pre;  /* This allows the carrige return to work \r\n */
+}
+.contactPhone {
+    font-size: 1.5em;
+}
+.contactFB, .contactInsta {
+    padding: 0.7em
 }
