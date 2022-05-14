@@ -1,0 +1,8 @@
+.contactContainer {
+    display:grid;
+    grid-row: 1 / -1;
+}
+.contactHead {
+    padding-top: 1.5em;
+    font-size: 2em;
+}

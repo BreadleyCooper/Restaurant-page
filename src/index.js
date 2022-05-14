@@ -1,7 +1,9 @@
 // https://www.fablekitchen.ca/#about
 import "./style.css"
 import "./menu.css"
+import "./contact.css"
 import renderMenu from "./menu";
+import renderContact from "./contact";
 
 // function to call that clears the page ready to load in from other modules
 function clearDOM (){
@@ -112,4 +114,8 @@ menu.addEventListener("click", () => {
 about.addEventListener("click", () =>{
     clearDOM();
     renderAbout();
+})
+contact.addEventListener("click", () => {
+    clearDOM();
+    renderContact();
 })
