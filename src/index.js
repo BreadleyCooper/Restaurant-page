@@ -30,7 +30,7 @@ headerLogoContainer.classList.toggle("headerLogoContainer");
 headerLogo.classList.toggle("headerLogo")
 headerAddress.classList.toggle("headerAddress");
 headerMenu.classList.toggle("headerMenu");
-headerAddress.textContent = "Conservatory Village \r\n Little Paxton \r\n \r\n 07960982635"
+headerAddress.textContent = "Conservatory Village \r\n \r\n\ Little Paxton"
 
 // headerMenu components
 const socialIcons = document.createElement("div");
@@ -99,6 +99,12 @@ for (let i = 0;i<7;i++){
 }
 renderAbout();
 // event listeners
+fb.addEventListener("click", () => {
+    window.location.assign("https://www.facebook.com/JamaicanGrillHouse")
+})
+insta.addEventListener("click", () =>{
+    window.location.assign("https://www.instagram.com/jamaican_grillhouse")
+})
 menu.addEventListener("click", () => {
     clearDOM();
     renderMenu();
