@@ -24,8 +24,10 @@ function renderContact() {
     contactPhone.textContent = "07960982365"
     contactContainer.appendChild(contactPhone)
     // social links
-    const contactFB = document.querySelector(".fb")
-    const contactInsta = document.querySelector(".insta")
+    const fb = document.querySelector(".fb")
+    const insta = document.querySelector(".insta")
+    const contactFB = fb.cloneNode("true")
+    const contactInsta = insta.cloneNode("true")
     contactFB.classList.toggle("contactFB")
     contactInsta.classList.toggle("contactInsta")
     contactPhone.append(contactFB, contactInsta)
