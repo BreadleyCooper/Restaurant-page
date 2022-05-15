@@ -13,3 +13,9 @@
     font-size: 1em;
     overflow-wrap: anywhere;
 }
+
+@media screen and (max-width: 500px) {
+    .startersItem, .sidesItem, .mainsItem, .drinksItem {
+        font-size: 0.7em;
+    }
+}
