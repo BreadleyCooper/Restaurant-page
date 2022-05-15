@@ -133,5 +133,8 @@ li {
     .name {
         font-size: 2em;
     }
+    .days {
+        font-size: 1em;
+    }
 
 }
