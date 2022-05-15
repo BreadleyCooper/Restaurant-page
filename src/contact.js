@@ -31,6 +31,12 @@ function renderContact() {
     contactFB.classList.toggle("contactFB")
     contactInsta.classList.toggle("contactInsta")
     contactPhone.append(contactFB, contactInsta)
+    contactFB.addEventListener("click", () => {
+        window.location.assign("https://www.facebook.com/JamaicanGrillHouse")
+    })
+    contactInsta.addEventListener("click", ()=>{
+        window.location.assign("https://www.instagram.com/jamaican_grillhouse")
+    })
 
 }
 export default renderContact

@@ -23,12 +23,14 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+    padding-bottom: 2rem;
     height: 3rem;
     font-size: 2.8rem;
 }
 .tagline {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
 }
 .header {
@@ -116,4 +118,20 @@ li {
     font-family: 'Cabin', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
+}
+@media screen and (max-width: 700px){
+    .header{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .headerAddress {
+        display: none;
+    }
+    .hoursList {
+        margin: 0;
+        padding: 0;
+    }
+    .name {
+        font-size: 2em;
+    }
+
 }
